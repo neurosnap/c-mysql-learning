@@ -13,6 +13,8 @@ Pre-Reqs
 How-To
 ======
 
-$ make c_mysql_learning
-$ ./c_mysql_learning
+.. code:: bash
+
+    $ make c_mysql_learning
+    $ ./c_mysql_learning
 
