@@ -14,8 +14,10 @@ Pre-Reqs
 How-To
 ======
 
+Create database
+
 .. code:: bash
 
-    $ make c_mysql_learning
-    $ ./c_mysql_learning
+    $ make create_db
+    $ ./create_db
 
