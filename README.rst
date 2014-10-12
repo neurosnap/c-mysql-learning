@@ -36,9 +36,17 @@ Import schema table and sample data
 
     $ mysqldump -u <user> -p <db> < sample_data/dn.sql
 
-Get results
+Get death notices
 
 .. code:: bash
 
     $ make get_dn
     $ ./get_dn
+
+Get frequency of death notices within date range
+
+.. code:: bash
+
+    $ make analyze_dn
+    $ ./analyze_dn "2014-10-03" "2014-10-10"
+
