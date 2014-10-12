@@ -14,6 +14,15 @@ Pre-Reqs
 How-To
 ======
 
+Set environment variables
+
+.. code:: bash
+
+    export MYSQL_SERVER="localhost"
+    export MYSQL_USER="test_user"
+    export MYSQL_PASS="testpass123"
+    export MYSQL_DB="testdb"
+
 Create database
 
 .. code:: bash
