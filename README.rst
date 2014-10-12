@@ -50,3 +50,14 @@ Get frequency of death notices within date range
     $ make analyze_dn
     $ ./analyze_dn "2014-10-03" "2014-10-10"
 
+Sample output
+
+.. code:: bash
+
+    Sunday:  91
+    Thursday:  57
+    Friday:  49
+    Tuesday:  21
+    Wednesday:  20
+    Monday:  13
+    Saturday:  10

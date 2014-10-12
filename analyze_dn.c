@@ -153,7 +153,6 @@ int main(int argc, char *argv[])
 			fprintf(stdout, " %d\n", int_data);	
 		}
 
-		fprintf(stdout, "\n");
 	}
 
 	if (mysql_stmt_close(stmt))
