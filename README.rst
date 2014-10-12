@@ -30,3 +30,15 @@ Create database
     $ make create_db
     $ ./create_db
 
+Import schema table and sample data
+
+.. code:: bash
+
+    $ mysqldump -u <user> -p <db> < sample_data/dn.sql
+
+Get results
+
+.. code:: bash
+
+    $ make get_dn
+    $ ./get_dn
